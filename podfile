@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "7.0"
+
+target ‘YCQRCodeScanner’ do
+
+pod 'MBProgressHUD','1.0.0'
+
+end  
+

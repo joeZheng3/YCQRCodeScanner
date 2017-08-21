@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DE1103A1F4ABE9A00B84758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110391F4ABE9A00B84758 /* main.m */; };
+		2DE110591F4ABEC000B84758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110511F4ABEC000B84758 /* AppDelegate.m */; };
+		2DE1105A1F4ABEC000B84758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE110521F4ABEC000B84758 /* Assets.xcassets */; };
+		2DE1105B1F4ABEC000B84758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE110531F4ABEC000B84758 /* LaunchScreen.storyboard */; };
+		2DE1105C1F4ABEC000B84758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE110551F4ABEC000B84758 /* Main.storyboard */; };
+		2DE1105D1F4ABEC000B84758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110581F4ABEC000B84758 /* ViewController.m */; };
+		2DE110611F4ABF2700B84758 /* GuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110601F4ABF2700B84758 /* GuideController.m */; };
+		2DE110651F4AC09900B84758 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110641F4AC09900B84758 /* MBProgressHUD+NJ.m */; };
+		2DE110681F4AC10D00B84758 /* UIBarButtonItem+MineShopBarButtonCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE110671F4AC10D00B84758 /* UIBarButtonItem+MineShopBarButtonCustom.m */; };
+		2DE1106D1F4AC1B900B84758 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1106C1F4AC1B900B84758 /* UIView+Extension.m */; };
+		773671D71E1EF5B5932EB1B4 /* libPods-YCQRCodeScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD189169E7D4FEC9EBAAE53 /* libPods-YCQRCodeScanner.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14C0040EC4A3D795F59F12C7 /* Pods-YCQRCodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCQRCodeScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCQRCodeScanner/Pods-YCQRCodeScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE110351F4ABE9A00B84758 /* YCQRCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCQRCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE110391F4ABE9A00B84758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DE110491F4ABE9B00B84758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE110501F4ABEC000B84758 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DE110511F4ABEC000B84758 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DE110521F4ABEC000B84758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DE110541F4ABEC000B84758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DE110561F4ABEC000B84758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DE110571F4ABEC000B84758 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DE110581F4ABEC000B84758 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DE1105F1F4ABF2700B84758 /* GuideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideController.h; sourceTree = "<group>"; };
+		2DE110601F4ABF2700B84758 /* GuideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideController.m; sourceTree = "<group>"; };
+		2DE110631F4AC09900B84758 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		2DE110641F4AC09900B84758 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		2DE110661F4AC10D00B84758 /* UIBarButtonItem+MineShopBarButtonCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MineShopBarButtonCustom.h"; sourceTree = "<group>"; };
+		2DE110671F4AC10D00B84758 /* UIBarButtonItem+MineShopBarButtonCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MineShopBarButtonCustom.m"; sourceTree = "<group>"; };
+		2DE1106A1F4AC14B00B84758 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		2DE1106B1F4AC1B900B84758 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2DE1106C1F4AC1B900B84758 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2FD189169E7D4FEC9EBAAE53 /* libPods-YCQRCodeScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCQRCodeScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB7DA3D086F8ACBD0C63641 /* Pods-YCQRCodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCQRCodeScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCQRCodeScanner/Pods-YCQRCodeScanner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE110321F4ABE9A00B84758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773671D71E1EF5B5932EB1B4 /* libPods-YCQRCodeScanner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CEE25E9C85DDE8546FEA066 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14C0040EC4A3D795F59F12C7 /* Pods-YCQRCodeScanner.debug.xcconfig */,
+				DDB7DA3D086F8ACBD0C63641 /* Pods-YCQRCodeScanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2DE1102C1F4ABE9A00B84758 = {
+			isa = PBXGroup;
+			children = (
+				2DE110371F4ABE9A00B84758 /* YCQRCodeScanner */,
+				2DE110361F4ABE9A00B84758 /* Products */,
+				2CEE25E9C85DDE8546FEA066 /* Pods */,
+				D48156C492F955F0B00366A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE110361F4ABE9A00B84758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE110351F4ABE9A00B84758 /* YCQRCodeScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE110371F4ABE9A00B84758 /* YCQRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1104F1F4ABEC000B84758 /* AppEntry */,
+				2DE110691F4AC14B00B84758 /* Configure */,
+				2DE110621F4AC09900B84758 /* Category */,
+				2DE1105E1F4ABEE700B84758 /* QRCode */,
+				2DE110381F4ABE9A00B84758 /* Supporting Files */,
+			);
+			path = YCQRCodeScanner;
+			sourceTree = "<group>";
+		};
+		2DE110381F4ABE9A00B84758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE110491F4ABE9B00B84758 /* Info.plist */,
+				2DE110391F4ABE9A00B84758 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE1104F1F4ABEC000B84758 /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				2DE110501F4ABEC000B84758 /* AppDelegate.h */,
+				2DE110511F4ABEC000B84758 /* AppDelegate.m */,
+				2DE110521F4ABEC000B84758 /* Assets.xcassets */,
+				2DE110531F4ABEC000B84758 /* LaunchScreen.storyboard */,
+				2DE110551F4ABEC000B84758 /* Main.storyboard */,
+				2DE110571F4ABEC000B84758 /* ViewController.h */,
+				2DE110581F4ABEC000B84758 /* ViewController.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		2DE1105E1F4ABEE700B84758 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1105F1F4ABF2700B84758 /* GuideController.h */,
+				2DE110601F4ABF2700B84758 /* GuideController.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		2DE110621F4AC09900B84758 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2DE110631F4AC09900B84758 /* MBProgressHUD+NJ.h */,
+				2DE110641F4AC09900B84758 /* MBProgressHUD+NJ.m */,
+				2DE110661F4AC10D00B84758 /* UIBarButtonItem+MineShopBarButtonCustom.h */,
+				2DE110671F4AC10D00B84758 /* UIBarButtonItem+MineShopBarButtonCustom.m */,
+				2DE1106B1F4AC1B900B84758 /* UIView+Extension.h */,
+				2DE1106C1F4AC1B900B84758 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2DE110691F4AC14B00B84758 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1106A1F4AC14B00B84758 /* Config.h */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		D48156C492F955F0B00366A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FD189169E7D4FEC9EBAAE53 /* libPods-YCQRCodeScanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DE110341F4ABE9A00B84758 /* YCQRCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE1104C1F4ABE9B00B84758 /* Build configuration list for PBXNativeTarget "YCQRCodeScanner" */;
+			buildPhases = (
+				6318665DC1EDB6758C1ED30E /* [CP] Check Pods Manifest.lock */,
+				2DE110311F4ABE9A00B84758 /* Sources */,
+				2DE110321F4ABE9A00B84758 /* Frameworks */,
+				2DE110331F4ABE9A00B84758 /* Resources */,
+				47D0C758797261CF5C59F20B /* [CP] Embed Pods Frameworks */,
+				489C9B34294DEB09E74B105B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCQRCodeScanner;
+			productName = YCQRCodeScanner;
+			productReference = 2DE110351F4ABE9A00B84758 /* YCQRCodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE1102D1F4ABE9A00B84758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chit;
+				TargetAttributes = {
+					2DE110341F4ABE9A00B84758 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = JCQL5V7V87;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2DE110301F4ABE9A00B84758 /* Build configuration list for PBXProject "YCQRCodeScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DE1102C1F4ABE9A00B84758;
+			productRefGroup = 2DE110361F4ABE9A00B84758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE110341F4ABE9A00B84758 /* YCQRCodeScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE110331F4ABE9A00B84758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE1105A1F4ABEC000B84758 /* Assets.xcassets in Resources */,
+				2DE1105C1F4ABEC000B84758 /* Main.storyboard in Resources */,
+				2DE1105B1F4ABEC000B84758 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47D0C758797261CF5C59F20B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCQRCodeScanner/Pods-YCQRCodeScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489C9B34294DEB09E74B105B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCQRCodeScanner/Pods-YCQRCodeScanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6318665DC1EDB6758C1ED30E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE110311F4ABE9A00B84758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE110591F4ABEC000B84758 /* AppDelegate.m in Sources */,
+				2DE110651F4AC09900B84758 /* MBProgressHUD+NJ.m in Sources */,
+				2DE1103A1F4ABE9A00B84758 /* main.m in Sources */,
+				2DE1106D1F4AC1B900B84758 /* UIView+Extension.m in Sources */,
+				2DE110611F4ABF2700B84758 /* GuideController.m in Sources */,
+				2DE110681F4AC10D00B84758 /* UIBarButtonItem+MineShopBarButtonCustom.m in Sources */,
+				2DE1105D1F4ABEC000B84758 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DE110531F4ABEC000B84758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE110541F4ABEC000B84758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE110551F4ABEC000B84758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE110561F4ABEC000B84758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DE1104A1F4ABE9B00B84758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DE1104B1F4ABE9B00B84758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE1104D1F4ABE9B00B84758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C0040EC4A3D795F59F12C7 /* Pods-YCQRCodeScanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = YCQRCodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.YCQRCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DE1104E1F4ABE9B00B84758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB7DA3D086F8ACBD0C63641 /* Pods-YCQRCodeScanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = YCQRCodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.YCQRCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE110301F4ABE9A00B84758 /* Build configuration list for PBXProject "YCQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE1104A1F4ABE9B00B84758 /* Debug */,
+				2DE1104B1F4ABE9B00B84758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE1104C1F4ABE9B00B84758 /* Build configuration list for PBXNativeTarget "YCQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE1104D1F4ABE9B00B84758 /* Debug */,
+				2DE1104E1F4ABE9B00B84758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE1102D1F4ABE9A00B84758 /* Project object */;
+}
